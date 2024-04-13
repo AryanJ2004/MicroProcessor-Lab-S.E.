@@ -98,5 +98,25 @@ skip1:
 	
 write result,4
 ret 	
+;==============O/P==================
+;(base) gurukul@gurukul-ThinkCentre-M800:~$ nasm -f elf64 assign7.asm
+;(base) gurukul@gurukul-ThinkCentre-M800:~$ ld -o assign7 assign7.o
+;(base) gurukul@gurukul-ThinkCentre-M800:~$ ./assign7
+;ALP for non overlapped block tranfer using string instructions :
 
+;Before Block Transfer :
+
+;the source block contains the elements :
+;1245872497
+
+
+;0000000000
+
+
+
+;the source block contains the elements :
+;1245872497
+
+
+;1245872497(base) gurukul@gurukul-ThinkCentre-M800:~$ 
 
