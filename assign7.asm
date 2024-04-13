@@ -9,13 +9,13 @@ section .data
 	msgSource_len equ $-msgSource
 	
 	
-	msgDest db 10,10"the source block contains the elements :",10
+	msgDest db 10,"the source block contains the elements :",10
 	msgDest_len equ $-msgDest
 	
 	bef db 10,"Before Block Transfer :",10
 	beflen equ $-bef
 	
-	aft db 10,10"After Block Transfer :",10
+	aft db 10,"After Block Transfer :",10
 	aftlen equ $-aft
 	
 section .bss
